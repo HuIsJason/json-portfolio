@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Route, Switch } from 'react-router-dom';
+import { Container, Typography } from '@material-ui/core';
 
-function App() {
+import { useAppStyles, useJsonStyles } from './styles';
+import { BackToTopButton, NavBar } from './components';
+import { Home, Projects, Resume } from './pages';
+
+const App: React.FC = () => {
+  const classes = useAppStyles();
+  const jsonClasses = useJsonStyles();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <Switch>
+        <Container className={classes.root}>
+          <Typography className={jsonClasses.root} variant="h5">
+            <Route exact path="/" component={Home} />
+            <Route exact path="/resume" component={Resume} />
+            <Route exact path="/projects" component={Projects} />
+          </Typography>
+        </Container>
+      </Switch>
+      <BackToTopButton />
+    </>
   );
-}
+};
 
 export default App;
