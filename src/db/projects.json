@@ -37,6 +37,6 @@
     "name": "Portfolio Website",
     "description": "My personal portfolio website designed with a JSON theme. Page contents displayed in JSON objects.",
     "techStack": ["React", "TypeScript", "Material-UI", "React Router", "♥"],
-    "githubLink": "Not yet posted on GitHub"
+    "githubLink": "https://github.com/HuIsJason/json-portfolio"
   }
 ]
