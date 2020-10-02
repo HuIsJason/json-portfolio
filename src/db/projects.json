@@ -9,6 +9,12 @@
     "name": "Personal portfolio",
     "description": "My personal portfolio. Designed with vanilla HTML and SCSS.",
     "techStack": ["HTML", "SCSS"],
-    "githubLink": "google.com"
+    "githubLink": "facebook.com"
+  },
+  {
+    "name": "Messenger website",
+    "description": "A basic messaging app using Websockets and Angular.",
+    "techStack": ["Angular", "Socket.io"],
+    "githubLink": "reddit.com"
   }
 ]
