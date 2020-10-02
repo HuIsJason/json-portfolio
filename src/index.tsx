@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { CssBaseline, ThemeProvider } from '@material-ui/core';
+import Analytics from 'react-router-ga';
 
 import './index.css';
 import { theme } from './styles';
@@ -10,12 +11,14 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Router>
-        <App />
-      </Router>
-    </ThemeProvider>
+    <Router>
+      <Analytics id="UA-179499335-1">
+        <ThemeProvider theme={theme}>
+          <CssBaseline />
+          <App />
+        </ThemeProvider>
+      </Analytics>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
