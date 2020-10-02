@@ -1,51 +1,50 @@
 {
   "education": {
-    "institution": "MIT",
+    "institution": "University of Toronto - 3rd year",
     "degree": "Honours Bachelor of Science",
-    "program": "Computer Science Co-op",
-    "duration": "2016 - 2020"
+    "program": "Computer Science Co-op - Entrepreneurship Stream",
+    "duration": "2018 - Present (2022 expected)"
   },
   "experiences": [
     {
-      "position": "Software Engineer Intern at Facebook",
-      "location": "Mountain View, California",
-      "duration": "May 2020 - Aug 2020 (4 months)"
-    },
-    {
-      "position": "Machine Learning Engineer at Google",
-      "location": "San Francisco, California",
-      "duration": "Sep 2020 - current"
+      "position": "Software Developer @ OpenText",
+      "location": "Richmond Hill, Ontario, Canada",
+      "duration": "Jan 2020 - Aug 2020 (8 months)"
     }
   ],
   "skills": {
     "languages": [
-      "C/C++",
-      "Java",
+      "JavaScript/TypeScript",
       "Python",
-      "JavaScript",
-      "Golang",
+      "Java",
       "HTML",
-      "CSS"
+      "CSS",
+      "SQL",
+      "C"
     ],
     "libraries and frameworks": [
-      "PySpark",
       "React",
-      "Vue.js",
-      "Angular",
-      "Deno",
+      "Node.js",
       "Express",
-      "Semantic UI"
+      "Spring Boot",
+      "Material-UI",
+      "Bootstrap"
     ],
-    "technologies": ["Git", "MongoDB", "Postman", "JIRA", "GitHub"],
+    "technologies": [
+      "Git",
+      "MongoDB",
+      "Neo4j",
+      "Unix",
+      "Postman",
+      "JIRA",
+      "GitHub"
+    ],
     "methodologies": [
-      "machine learning",
       "REST APIs",
       "microservices",
       "NoSQL",
       "Agile Scrum",
-      "version control",
-      "unit testing",
-      "project management"
+      "version control"
     ]
   }
 }
