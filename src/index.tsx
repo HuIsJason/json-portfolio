@@ -12,7 +12,7 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <Analytics id="UA-179499335-1">
+      <Analytics id="UA-179499335-1" debug>
         <ThemeProvider theme={theme}>
           <CssBaseline />
           <App />
