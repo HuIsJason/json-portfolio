@@ -10,12 +10,12 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <Router>
+    <Router>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
         <App />
-      </Router>
-    </ThemeProvider>
+      </ThemeProvider>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );
