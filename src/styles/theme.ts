@@ -9,9 +9,6 @@ export default createMuiTheme({
     secondary: {
       main: '#F54E4E',
     },
-    // background: {
-    //   default: '#212121',
-    // },
   },
   typography: {
     fontFamily: ['"Source Code Pro"', 'monospace'].join(','),

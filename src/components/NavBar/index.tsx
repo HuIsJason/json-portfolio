@@ -13,6 +13,8 @@ import {
 import useStyles from './styles';
 import { useJsonStyles } from '../../styles';
 
+import data from '../../db/about.json';
+
 // interface Props {
 //   children: React.ReactElement;
 // }
@@ -31,6 +33,8 @@ const NavBar: React.FC = () => {
   const classes = useStyles();
   const jsonClasses = useJsonStyles();
 
+  const { name } = data;
+
   return (
     <>
       {/* <HideOnScroll> */}
@@ -42,7 +46,8 @@ const NavBar: React.FC = () => {
             component={Link}
             to="/"
           >
-            {'{'}&nbsp;<span className={jsonClasses.code}>JasonHu</span>
+            {'{'}&nbsp;
+            <span className={jsonClasses.code}>{name.replace(/\s+/g, '')}</span>
             &nbsp;
             {'}'}
           </Typography>
