@@ -22,6 +22,10 @@ JSON Portfolio was built with React, TypeScript, a Material-UI styling solution,
 ## Future features
 
 - completing the Home page where basic info about the person is displayed along with a profile picture
-- separating branches, where `master` will have the sample placeholder JSON info, and a `personal` branch with my (Jason Hu's) info
-- add Google Analytics
 - implement responsiveness
+- ```add Google Analytics~~~
+
+  ```
+- ```separating branches, where `master` will have the sample placeholder JSON info, and a `personal` branch with my (Jason Hu's) info~~~
+
+  ```
