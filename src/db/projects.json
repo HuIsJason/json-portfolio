@@ -38,17 +38,5 @@
     "description": "My personal portfolio website designed with a JSON theme. Page contents displayed in JSON objects.",
     "techStack": ["React", "TypeScript", "Material-UI", "React Router", "♥"],
     "githubLink": "https://github.com/HuIsJason/json-portfolio"
-  },
-  {
-    "name": "Todo List",
-    "description": "A simple full-stack todo list that supports CRUD operations. Used React for front-end, Express for back-end service, and a MongoDB Collection for storing todo items.",
-    "techStack": ["React", "Express", "MongoDB"],
-    "githubLink": "google.com"
-  },
-  {
-    "name": "Personal portfolio",
-    "description": "My personal portfolio. Designed with vanilla HTML and SCSS.",
-    "techStack": ["HTML", "SCSS"],
-    "githubLink": "google.com"
   }
 ]
