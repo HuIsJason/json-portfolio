@@ -13,15 +13,15 @@ const App: React.FC = () => {
   return (
     <>
       <NavBar />
-      <Switch>
-        <Container className={classes.root}>
-          <Typography className={jsonClasses.root} variant="h5">
+      <Container className={classes.root}>
+        <Typography className={jsonClasses.root} variant="h5">
+          <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/resume" component={Resume} />
             <Route exact path="/projects" component={Projects} />
-          </Typography>
-        </Container>
-      </Switch>
+          </Switch>
+        </Typography>
+      </Container>
       <BackToTopButton />
     </>
   );
