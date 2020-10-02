@@ -11,7 +11,7 @@ Page contents are retrieved from JSON files under `src/db/` so it is completely 
 ## Getting started
 
 1. run `git clone https://github.com/HuIsJason/json-portfolio.git`
-2. run `cd json-portfolio`
+2. run `cd json-portfolio/`
 3. populate the JSON files under `src/db/` accordingly
 4. run `yarn install && yarn start`
 
