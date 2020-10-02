@@ -1,42 +1,14 @@
 [
   {
-    "name": "Safer Strides",
-    "description": "A crime heat mapper mobile app that maps real-time police reports from the Toronto Police Twitter account.",
-    "techStack": [
-      "React Native",
-      "Python",
-      "UiPath's Robotic Process Automation (for web scraping)"
-    ],
-    "githubLink": "https://github.com/HuIsJason/safer-strides"
+    "name": "Todo List",
+    "description": "A simple full-stack todo list that supports CRUD operations. Used React for front-end, Express for back-end service, and a MongoDB Collection for storing todo items.",
+    "techStack": ["React", "Express", "MongoDB"],
+    "githubLink": "google.com"
   },
   {
-    "name": "Planit",
-    "description": "A trip advisor mobile app that generates recommended vacation itineraries through Google Maps API.",
-    "techStack": [
-      "React Native",
-      "Java",
-      "Spring Boot",
-      "MongoDB",
-      "Google Maps API"
-    ],
-    "githubLink": "https://github.com/HuIsJason/planit-trip-advisor"
-  },
-  {
-    "name": "Spotify-lite",
-    "description": "A backend for a music player service composed of two REST API microservices for songs and playlists.",
-    "techStack": ["Java", "Spring Boot", "MongoDB", "Neo4j", "Cypher"],
-    "githubLink": "https://github.com/HuIsJason/spotify-lite"
-  },
-  {
-    "name": "JShell",
-    "description": "A Unix-like shell environment/CLI written in Java.",
-    "techStack": ["Java", "JUnit"],
-    "githubLink": "https://github.com/HuIsJason/Java-Shell"
-  },
-  {
-    "name": "Portfolio Website",
-    "description": "My personal portfolio website designed with a JSON theme. Page contents displayed in JSON objects.",
-    "techStack": ["React", "TypeScript", "Material-UI", "React Router", "♥"],
-    "githubLink": "https://github.com/HuIsJason/json-portfolio"
+    "name": "Personal portfolio",
+    "description": "My personal portfolio. Designed with vanilla HTML and SCSS.",
+    "techStack": ["HTML", "SCSS"],
+    "githubLink": "google.com"
   }
 ]
