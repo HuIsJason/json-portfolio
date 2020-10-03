@@ -33,17 +33,17 @@
     "technologies": [
       "Git",
       "MongoDB",
-      "Neo4j",
       "Unix",
+      "Neo4j",
       "Postman",
       "JIRA",
       "GitHub"
     ],
     "methodologies": [
+      "Agile Scrum",
       "REST APIs",
       "microservices",
       "NoSQL",
-      "Agile Scrum",
       "version control"
     ]
   }

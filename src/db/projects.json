@@ -1,5 +1,11 @@
 [
   {
+    "name": "JSON Potfolio",
+    "description": "A personal portfolio template designed with a JSON theme, where page contents are displayed in JSON objects with Monokai syntax highlighting.",
+    "techStack": ["React", "TypeScript", "Material-UI", "React Router", "♥"],
+    "githubLink": "https://github.com/HuIsJason/json-portfolio"
+  },
+  {
     "name": "Safer Strides",
     "description": "A crime heat mapper mobile app that maps real-time police reports from the Toronto Police Twitter account.",
     "techStack": [
@@ -29,14 +35,8 @@
   },
   {
     "name": "JShell",
-    "description": "A Unix-like shell environment/CLI written in Java.",
+    "description": "A Unix-like shell environment with a tree file system and a stack data structure for command history. Used JUnit for unit testing.",
     "techStack": ["Java", "JUnit"],
     "githubLink": "https://github.com/HuIsJason/Java-Shell"
-  },
-  {
-    "name": "Portfolio Website",
-    "description": "My personal portfolio website designed with a JSON theme. Page contents displayed in JSON objects.",
-    "techStack": ["React", "TypeScript", "Material-UI", "React Router", "♥"],
-    "githubLink": "https://github.com/HuIsJason/json-portfolio"
   }
 ]
