@@ -35,7 +35,7 @@
   },
   {
     "name": "JShell",
-    "description": "A Unix-like shell environment with a tree file system and a stack data structure for command history. Used JUnit for unit testing.",
+    "description": "A Unix-like shell environment with a tree file system and a command history stack. Used JUnit for unit testing.",
     "techStack": ["Java", "JUnit"],
     "githubLink": "https://github.com/HuIsJason/Java-Shell"
   }
