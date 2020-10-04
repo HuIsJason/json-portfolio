@@ -1,5 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/cfde6ee1-bb93-4af2-92b0-a2389d9612d3/deploy-status)](https://app.netlify.com/sites/zen-davinci-1978d3/deploys)
-
 # JSON Portfolio
 
 JSON Portfolio is a personal portfolio template designed with a JSON theme, where page contents are dislayed in JSON objects with Monokai syntax highlighting and a dark theme inspired by VSCode's Material Theme Darker.
