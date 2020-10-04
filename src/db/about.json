@@ -1,3 +1,26 @@
 {
-  "name": "Jason Hu"
+  "about": {
+    "name": "Jason Hu",
+    "position": "a 3rd year computer science student",
+    "school": "the University of Toronto",
+    "status": "a full-time student",
+    "interests": [
+      "lifting weights",
+      "playing basketball",
+      "eating sushi",
+      "and learning new things!"
+    ],
+    "email": "jason.h.7249@gmail.com",
+    "phone": "(416) 909-3633"
+  },
+  "links": {
+    "LinkedIn": {
+      "linkName": "/hujason1",
+      "linkUrl": "https://www.linkedin.com/in/hujason1/"
+    },
+    "GitHub": {
+      "linkName": "/HuIsJason",
+      "linkUrl": "https://github.com/HuIsJason"
+    }
+  }
 }

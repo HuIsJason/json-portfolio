@@ -10,6 +10,8 @@ import {
   // useScrollTrigger,
 } from '@material-ui/core';
 
+import { About } from '../../pages/Home/types';
+
 import useStyles from './styles';
 import { useJsonStyles } from '../../styles';
 
@@ -33,7 +35,7 @@ const NavBar: React.FC = () => {
   const classes = useStyles();
   const jsonClasses = useJsonStyles();
 
-  const { name } = data;
+  const { about }: { about: About } = data;
 
   return (
     <>
@@ -47,7 +49,9 @@ const NavBar: React.FC = () => {
             to="/"
           >
             {'{'}&nbsp;
-            <span className={jsonClasses.code}>{name.replace(/\s+/g, '')}</span>
+            <span className={jsonClasses.code}>
+              {about.name.replace(/\s+/g, '')}
+            </span>
             &nbsp;
             {'}'}
           </Typography>

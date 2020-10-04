@@ -1,10 +1,11 @@
 import React from 'react';
 
-import { useJsonStyles } from '../../styles';
 import { Tabs } from '../../components/common';
+import { Education, Experience, Skills } from './types';
+
+import { useJsonStyles } from '../../styles';
 
 import data from '../../db/resume.json';
-import { Education, Experience, Skills } from './types';
 
 const Resume: React.FC = () => {
   const classes = useJsonStyles();
