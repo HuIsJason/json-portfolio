@@ -1,10 +1,11 @@
 import React from 'react';
 
-import { useJsonStyles } from '../../styles';
 import { Project, Tabs } from '../../components/common';
+import ProjectProps from '../../components/common/Project/types';
+
+import { useJsonStyles } from '../../styles';
 
 import data from '../../db/projects.json';
-import { Props as ProjectProps } from '../../components/common/Project';
 
 const Projects: React.FC = () => {
   const classes = useJsonStyles();

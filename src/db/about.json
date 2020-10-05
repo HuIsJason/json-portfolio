@@ -1,3 +1,26 @@
 {
-  "name": "John Doe"
+  "about": {
+    "name": "John Doe",
+    "position": "a 1st year computer engineering student",
+    "school": "Hardvard University",
+    "status": "a part-time student and teaching assistant",
+    "interests": [
+      "reading",
+      "watching anime",
+      "playing Among us",
+      "and working out"
+    ],
+    "email": "johndoe@outlook.com",
+    "phone": "(xxx) xxx-xxxx"
+  },
+  "links": {
+    "LinkedIn": {
+      "linkName": "/johndoe2",
+      "linkUrl": "https://www.linkedin.com/in/johndoe2"
+    },
+    "GitHub": {
+      "linkName": "/johndoe2",
+      "linkUrl": "https://github.com/johndoe2"
+    }
+  }
 }

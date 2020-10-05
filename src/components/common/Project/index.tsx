@@ -1,15 +1,9 @@
 import React from 'react';
 
-import { useJsonStyles } from '../../../styles';
 import { Tabs } from '..';
+import Props from './types';
 
-export interface Props {
-  name: string;
-  description: string;
-  techStack: string[];
-  githubLink: string;
-  isLast?: boolean;
-}
+import { useJsonStyles } from '../../../styles';
 
 const Project: React.FC<Props> = ({
   name,
