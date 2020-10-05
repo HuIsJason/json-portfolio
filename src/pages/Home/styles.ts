@@ -1,6 +1,6 @@
-import { makeStyles, Theme } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core';
 
-export default makeStyles((theme: Theme) => ({
+export default makeStyles(() => ({
   pic: {
     width: '300px',
     height: '300px',

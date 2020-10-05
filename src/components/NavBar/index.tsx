@@ -1,14 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import {
-  AppBar,
-  Divider,
-  Grid,
-  // Slide,
-  Toolbar,
-  Typography,
-  // useScrollTrigger,
-} from '@material-ui/core';
+import { AppBar, Divider, Grid, Toolbar, Typography } from '@material-ui/core';
 
 import { About } from '../../pages/Home/types';
 
@@ -16,20 +8,6 @@ import useStyles from './styles';
 import { useJsonStyles } from '../../styles';
 
 import data from '../../db/about.json';
-
-// interface Props {
-//   children: React.ReactElement;
-// }
-
-// const HideOnScroll: React.FC<Props> = ({ children }) => {
-//   const trigger = useScrollTrigger();
-
-//   return (
-//     <Slide appear={false} direction="down" in={!trigger}>
-//       {children}
-//     </Slide>
-//   );
-// };
 
 const NavBar: React.FC = () => {
   const classes = useStyles();
@@ -39,7 +17,6 @@ const NavBar: React.FC = () => {
 
   return (
     <>
-      {/* <HideOnScroll> */}
       <AppBar className={classes.root} color="primary" position="static">
         <Toolbar id="back-to-top-anchor">
           <Typography
@@ -81,7 +58,6 @@ const NavBar: React.FC = () => {
           </Grid>
         </Toolbar>
       </AppBar>
-      {/* </HideOnScroll> */}
       <Divider className={classes.divider} variant="middle" />
     </>
   );
