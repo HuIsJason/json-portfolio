@@ -26,11 +26,11 @@ const Home: React.FC = () => {
         <span className={jsonClasses.text}>
           <a
             className={jsonClasses.text}
-            href={links.LinkedIn.linkUrl}
+            href={links.GitHub.linkUrl}
             target="_blank"
             rel="noopener noreferrer"
           >
-            {links.LinkedIn.linkName}
+            {links.GitHub.linkName}
           </a>
         </span>
         "<span className={jsonClasses.code}>,</span>
@@ -40,11 +40,11 @@ const Home: React.FC = () => {
         <span className={jsonClasses.text}>
           <a
             className={jsonClasses.text}
-            href={links.GitHub.linkUrl}
+            href={links.LinkedIn.linkUrl}
             target="_blank"
             rel="noopener noreferrer"
           >
-            {links.GitHub.linkName}
+            {links.LinkedIn.linkName}
           </a>
         </span>
         "{'\n'}
