@@ -5,8 +5,9 @@ export default makeStyles((theme: Theme) => ({
     width: '300px',
     height: '300px',
     borderRadius: '50%',
+    marginTop: '25px',
     marginLeft: '19%',
-    marginBottom: '19px',
+    marginBottom: '26px',
     display: 'block',
   },
 }));
