@@ -4,7 +4,7 @@ JSON Portfolio is a personal portfolio template designed with a JSON theme, wher
 
 Page contents are retrieved from JSON files under `src/db/`, so it is completely template-able as long as the JSON files are formatted correctly. Sample placeholder portfolio info will be there for a simple guide on what info to populate the JSON files with.
 
-[Check out a live version here!](https://huisjason.netlify.app/)
+[Check out a live version here!](https://jason-hu.com)
 
 ## Getting started
 
