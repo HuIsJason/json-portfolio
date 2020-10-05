@@ -11,7 +11,8 @@ Page contents are retrieved from JSON files under `src/db/`, so it is completely
 1. run `git clone https://github.com/HuIsJason/json-portfolio.git`
 2. run `cd json-portfolio`
 3. populate the JSON files under `src/db/` accordingly
-4. run `yarn install && yarn start`
+4. add a JPG rofile picture under `assets/` called `ProfilePic.jpg`
+5. run `yarn install && yarn start`
 
 ## Technologies
 
