@@ -20,7 +20,7 @@ JSON Portfolio was built with React, TypeScript, a Material-UI styling solution,
 
 ## Future features
 
-- complete Home page where basic info about the owner is displayed along with a profile picture
 - implement responsiveness
+- ~~complete Home page where basic info about the owner is displayed along with a profile picture~~
 - ~~add Google Analytics~~
 - ~~separating branches, where `master` will have the sample placeholder JSON info, and a `personal` branch with my (Jason Hu's) info~~
