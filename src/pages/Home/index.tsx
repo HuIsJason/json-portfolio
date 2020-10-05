@@ -21,7 +21,7 @@ const Home: React.FC = () => {
         <img className={classes.pic} src={ProfilePic} alt="" />
         <Tabs count={2} />
         {'{\n'}
-        <Tabs count={3} />"<span className={jsonClasses.page}>LinkedIn</span>"
+        <Tabs count={3} />"<span className={jsonClasses.page}>GitHub</span>"
         <span className={jsonClasses.code}>: </span>"
         <span className={jsonClasses.text}>
           <a
@@ -35,7 +35,7 @@ const Home: React.FC = () => {
         </span>
         "<span className={jsonClasses.code}>,</span>
         {'\n'}
-        <Tabs count={3} />"<span className={jsonClasses.page}>GitHub</span>"
+        <Tabs count={3} />"<span className={jsonClasses.page}>LinkedIn</span>"
         <span className={jsonClasses.code}>: </span>"
         <span className={jsonClasses.text}>
           <a
