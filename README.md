@@ -14,6 +14,11 @@ Page contents are retrieved from JSON files under `src/db/`, so it is completely
 4. add a profile picture under `src/assets/` called `ProfilePic.jpg`
 5. run `yarn install && yarn start`
 
+## Screenshots
+![](https://imgur.com/a/LwdBMpc)
+![](https://imgur.com/a/blA39VX)
+![](https://imgur.com/a/6PqUT03)
+
 ## Technologies
 
 JSON Portfolio was built with React, TypeScript, a Material-UI styling solution, and React Router. Deployed using Netlify.
