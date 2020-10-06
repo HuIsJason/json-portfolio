@@ -15,9 +15,9 @@ Page contents are retrieved from JSON files under `src/db/`, so it is completely
 5. run `yarn install && yarn start`
 
 ## Screenshots
-![](https://imgur.com/a/LwdBMpc)
-![](https://imgur.com/a/blA39VX)
-![](https://imgur.com/a/6PqUT03)
+![](https://i.imgur.com/OGI3K2F.png)
+![](https://i.imgur.com/41RZppc.png)
+![](https://i.imgur.com/0Tpl8zq.png)
 
 ## Technologies
 
