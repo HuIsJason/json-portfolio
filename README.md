@@ -14,11 +14,6 @@ Page contents are retrieved from JSON files under `src/db/`, so it is completely
 4. add a profile picture under `src/assets/` called `ProfilePic.jpg`
 5. run `yarn install && yarn start`
 
-## Screenshots
-![](https://i.imgur.com/OGI3K2F.png)
-![](https://i.imgur.com/41RZppc.png)
-![](https://i.imgur.com/0Tpl8zq.png)
-
 ## Technologies
 
 JSON Portfolio was built with React, TypeScript, a Material-UI styling solution, and React Router. Deployed using Netlify.
@@ -29,3 +24,8 @@ JSON Portfolio was built with React, TypeScript, a Material-UI styling solution,
 - ~~complete Home page where basic info about the owner is displayed along with a profile picture~~
 - ~~add Google Analytics~~
 - ~~separating branches, where `master` will have the sample placeholder JSON info, and a `personal` branch with my (Jason Hu's) info~~
+
+## Screenshots
+![](https://i.imgur.com/OGI3K2F.png)
+![](https://i.imgur.com/41RZppc.png)
+![](https://i.imgur.com/0Tpl8zq.png)
