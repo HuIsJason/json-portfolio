@@ -47,6 +47,20 @@ const Home: React.FC = () => {
             {links.LinkedIn.linkName}
           </a>
         </span>
+        "<span className={jsonClasses.code}>,</span>
+        {'\n'}
+        <Tabs count={3} />"<span className={jsonClasses.page}>Resume</span>"
+        <span className={jsonClasses.code}>: </span>"
+        <span className={jsonClasses.text}>
+          <a
+            className={jsonClasses.text}
+            href="/Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            /Resume.pdf
+          </a>
+        </span>
         "{'\n'}
         <Tabs count={2} />
         {'}'}

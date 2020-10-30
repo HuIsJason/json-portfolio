@@ -22,6 +22,20 @@ const Resume: React.FC = () => {
   return (
     <>
       {'{\n'}
+      <Tabs />"<span className={classes.page}>Resume</span>"
+      <span className={classes.code}>: </span>"
+      <span className={classes.text}>
+        <a
+          className={classes.text}
+          href="/Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          /Resume.pdf
+        </a>
+      </span>
+      "<span className={classes.code}>,</span>
+      {'\n'}
       {/* Education */}
       <Tabs />"<span className={classes.page}>Education</span>"
       <span className={classes.code}>: </span>

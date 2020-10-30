@@ -21,6 +21,10 @@
     "GitHub": {
       "linkName": "/HuIsJason",
       "linkUrl": "https://github.com/HuIsJason"
+    },
+    "GitHubRepos": {
+      "linkName": "https://github.com/HuIsJason?tab=repositories",
+      "linkUrl": "https://github.com/HuIsJason?tab=repositories"
     }
   }
 }
