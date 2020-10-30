@@ -11,8 +11,9 @@ Page contents are retrieved from JSON files under `src/db/`, so it is completely
 1. `git clone https://github.com/HuIsJason/json-portfolio.git`
 2. `cd json-portfolio`
 3. populate the JSON files under `src/db/` accordingly
-4. replace sample profile picture under `src/assets/` and add a new one called `ProfilePic.jpg`
-5. `yarn install && yarn start`
+4. add your own resume file called `Resume.pdf` under `public/`
+5. replace sample profile picture under `src/assets/` and add a new one called `ProfilePic.jpg`
+6. `yarn install && yarn start`
 
 ## Technologies
 
