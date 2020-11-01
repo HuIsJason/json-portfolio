@@ -17,7 +17,7 @@ Page contents are retrieved from JSON files under `src/db/`, so it is completely
 
 ## Technologies
 
-JSON Portfolio was built with `React`, `TypeScript`, `Material-UI`, and `React Router`. Deployed using `Netlify`.
+JSON Portfolio was built with React, TypeScript, Material-UI, and React Router. Deployed using Netlify.
 
 ## Future features
 
