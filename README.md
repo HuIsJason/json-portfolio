@@ -11,13 +11,13 @@ Page contents are retrieved from JSON files under `src/db/`, so it is completely
 1. `git clone https://github.com/HuIsJason/json-portfolio.git`
 2. `cd json-portfolio`
 3. populate the JSON files under `src/db/` accordingly
-4. add your own resume file called `Resume.pdf` under `public/`
-5. replace sample profile picture under `src/assets/` and add a new one called `ProfilePic.jpg`
+4. add resume file named `Resume.pdf` under `public/`
+5. replace sample profile picture under `src/assets/` with a new one named `ProfilePic.jpg`
 6. `yarn install && yarn start`
 
 ## Technologies
 
-JSON Portfolio was built with React, TypeScript, a Material-UI styling solution, and React Router. Deployed using Netlify.
+JSON Portfolio was built with `React`, `TypeScript`, `Material-UI`, and `React Router`. Deployed using `Netlify`.
 
 ## Future features
 
