@@ -19,32 +19,24 @@
       "Java",
       "HTML",
       "CSS",
-      "SQL",
       "C"
     ],
     "libraries and frameworks": [
       "React",
-      "Node.js",
+      "React Native",
       "Express",
+      "Redux",
       "Spring Boot",
       "Material-UI",
       "Bootstrap"
     ],
-    "technologies": [
-      "Git",
-      "MongoDB",
-      "Unix",
-      "Neo4j",
-      "Postman",
-      "JIRA",
-      "GitHub"
-    ],
+    "technologies": ["Node.js", "Git", "MongoDB", "Neo4j", "GitHub", "JIRA"],
     "methodologies": [
-      "Agile Scrum",
       "REST APIs",
       "microservices",
       "NoSQL",
-      "version control"
+      "Agile Scrum/Kanban",
+      "full stack development"
     ]
   }
 }
