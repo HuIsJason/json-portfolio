@@ -1,5 +1,12 @@
 [
   {
+    "name": "Spreadsheet.js",
+    "description": "A JavaScript library for creating customizable and interactive vanilla spreadsheets. Features saving to localStorage, resizing, HTML input types, custom callbacks, and more.",
+    "techStack": ["JavaScript", "HTML", "CSS"],
+    "githubLink": "not available yet :(",
+    "projectLink": "https://spread-sheet.herokuapp.com/"
+  },
+  {
     "name": "JSON Portfolio",
     "description": "A personal portfolio template designed with a JSON theme. Page contents are displayed in JSON objects with Monokai syntax highlighting.",
     "techStack": ["React", "TypeScript", "Material-UI", "React Router", "♥"],

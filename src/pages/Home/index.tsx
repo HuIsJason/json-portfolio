@@ -1,7 +1,7 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
 
-import { Tabs } from '../../components/common';
+import { Tabs } from '../../components';
 import { About, Links } from './types';
 
 import useStyles from './styles';

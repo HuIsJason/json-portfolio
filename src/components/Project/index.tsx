@@ -2,14 +2,15 @@ import React from 'react';
 
 import Props from './types';
 
-import { Tabs } from '..';
-import { useJsonStyles } from '../../../styles';
+import Tabs from '../Tabs';
+import { useJsonStyles } from '../../styles';
 
 const Project: React.FC<Props> = ({
   name,
   description,
   techStack,
   githubLink,
+  projectLink,
   isLast = false,
 }) => {
   const classes = useJsonStyles();
@@ -48,7 +49,24 @@ const Project: React.FC<Props> = ({
       >
         {githubLink}
       </a>
-      "{'\n'}
+      "
+      {projectLink && (
+        <>
+          {',\n'}
+          <Tabs count={3} />"<span className={classes.info}>Link</span>"
+          <span className={classes.code}>: </span>"
+          <a
+            className={classes.text}
+            href={projectLink}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {projectLink}
+          </a>
+          "
+        </>
+      )}
+      {'\n'}
       <Tabs count={2} />
       {'}'}
       {!isLast && <span className={classes.code}>,</span>}

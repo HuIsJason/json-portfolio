@@ -3,5 +3,6 @@ export default interface ProjectProps {
   description: string;
   techStack: string[];
   githubLink: string;
+  projectLink?: string;
   isLast?: boolean;
 }

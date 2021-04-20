@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Tabs } from '../../components/common';
+import { Tabs } from '../../components';
 import { Education, Experience, Skills } from './types';
 
 import { useJsonStyles } from '../../styles';
