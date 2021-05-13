@@ -3,7 +3,7 @@
     "name": "Spreadsheet.js",
     "description": "A JavaScript library for creating customizable and interactive vanilla spreadsheets. Features saving to localStorage, resizing, HTML input types, custom callbacks, and more.",
     "techStack": ["JavaScript", "HTML", "CSS"],
-    "githubLink": "not available yet :(",
+    "githubLink": "https://github.com/HuIsJason/spreadsheet.js",
     "projectLink": "https://spread-sheet.herokuapp.com/"
   },
   {
