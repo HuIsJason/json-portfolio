@@ -52,7 +52,8 @@ const Project: React.FC<Props> = ({
       "
       {projectLink && (
         <>
-          {',\n'}
+          <span className={classes.code}>,</span>
+          {'\n'}
           <Tabs count={3} />"<span className={classes.info}>Link</span>"
           <span className={classes.code}>: </span>"
           <a
