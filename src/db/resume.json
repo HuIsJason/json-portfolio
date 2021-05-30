@@ -19,29 +19,38 @@
   ],
   "skills": {
     "languages": [
-      "JavaScript/TypeScript",
-      "Python",
+      "JavaScript",
+      "TypeScript",
       "Java",
+      "Python",
       "HTML",
       "CSS",
       "C"
     ],
     "libraries and frameworks": [
       "React",
-      "React Native",
       "Express",
       "Redux",
       "Spring Boot",
-      "Material-UI",
-      "Bootstrap"
+      "JUnit",
+      "Mocha"
     ],
-    "technologies": ["Node.js", "Git", "MongoDB", "Neo4j", "GitHub", "JIRA"],
+    "technologies and databases": [
+      "Node.js",
+      "Git",
+      "MongoDB",
+      "Redis",
+      "Neo4j",
+      "GitHub",
+      "Jira"
+    ],
     "methodologies": [
       "REST APIs",
       "microservices",
       "NoSQL",
-      "Agile Scrum/Kanban",
-      "full stack development"
+      "Agile Scrum",
+      "unit testing",
+      "test-driven development"
     ]
   }
 }

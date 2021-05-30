@@ -1,5 +1,12 @@
 [
   {
+    "name": "Real Estate Agent CRM web app",
+    "description": "A customer relationship management web app for real estate agents to manage multiple clients' properties and projects.",
+    "techStack": ["React", "TypeScript", "Node.js", "Express", "MongoDB"],
+    "githubLink": "not ready yet :(",
+    "projectLink": "https://agent-service.herokuapp.com/"
+  },
+  {
     "name": "Spreadsheet.js",
     "description": "A JavaScript library for creating customizable and interactive vanilla spreadsheets. Features saving to localStorage, resizing, HTML input types, custom callbacks, and more.",
     "techStack": ["JavaScript", "HTML", "CSS"],
@@ -24,9 +31,10 @@
   },
   {
     "name": "Planit",
-    "description": "A trip advisor mobile app that generates recommended vacation itineraries through Google Maps API.",
+    "description": "A trip advisor mobile app that takes in user preferences and generates recommended vacation itineraries using Google Maps API.",
     "techStack": [
       "React Native",
+      "Redux",
       "Java",
       "Spring Boot",
       "MongoDB",
