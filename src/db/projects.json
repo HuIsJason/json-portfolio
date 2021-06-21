@@ -3,7 +3,7 @@
     "name": "Real Estate Agent CRM web app",
     "description": "A customer relationship management web app for real estate agents to manage multiple clients' properties and projects.",
     "techStack": ["React", "TypeScript", "Node.js", "Express", "MongoDB"],
-    "githubLink": "not ready yet :(",
+    "githubLink": "https://github.com/HuIsJason/real-estate-crm",
     "projectLink": "https://agent-service.herokuapp.com/"
   },
   {
