@@ -17,6 +17,7 @@
     "name": "JSON Portfolio",
     "description": "A personal portfolio template designed with a JSON theme. Page contents are displayed in JSON objects with Monokai syntax highlighting.",
     "techStack": ["React", "TypeScript", "Material-UI", "React Router", "♥"],
+    "projectLink": "https://jason-hu.com/",
     "githubLink": "https://github.com/HuIsJason/json-portfolio"
   },
   {
