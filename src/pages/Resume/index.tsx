@@ -88,8 +88,7 @@ const Resume: React.FC = () => {
           <span className={classes.text}>{experience.team}</span>"
           <span className={classes.code}>,</span>
           {'\n'}
-          <Tabs count={3} />"
-          <span className={classes.info}>technologies used</span>"
+          <Tabs count={3} />"<span className={classes.info}>tech stack</span>"
           <span className={classes.code}>: </span>
           {'[\n'}
           {experience.techStack.map((tech, i) => (
