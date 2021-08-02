@@ -80,7 +80,29 @@ const Resume: React.FC = () => {
           {'\n'}
           <Tabs count={3} />"<span className={classes.info}>location</span>"
           <span className={classes.code}>: </span>"
-          <span className={classes.text}>{experience.location}</span>"{'\n'}
+          <span className={classes.text}>{experience.location}</span>"
+          <span className={classes.code}>,</span>
+          {'\n'}
+          <Tabs count={3} />"<span className={classes.info}>team</span>"
+          <span className={classes.code}>: </span>"
+          <span className={classes.text}>{experience.team}</span>"
+          <span className={classes.code}>,</span>
+          {'\n'}
+          <Tabs count={3} />"
+          <span className={classes.info}>technologies used</span>"
+          <span className={classes.code}>: </span>
+          {'[\n'}
+          {experience.techStack.map((tech, i) => (
+            <React.Fragment key={i}>
+              <Tabs count={4} />"<span className={classes.text}>{tech}</span>"
+              {i !== experience.techStack.length - 1 && (
+                <span className={classes.code}>,</span>
+              )}
+              {'\n'}
+            </React.Fragment>
+          ))}
+          <Tabs count={3} />
+          {']\n'}
           <Tabs count={2} />
           {'}'}
           {i !== experiences.length - 1 && (
