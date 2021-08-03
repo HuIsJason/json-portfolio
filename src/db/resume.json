@@ -20,7 +20,6 @@
       "team": "Developer Experience team",
       "techStack": [
         "React",
-        "TypeScript",
         "OpenText services (OT2 Content Storage and Metadata)",
         "Python"
       ]
