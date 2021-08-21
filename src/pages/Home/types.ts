@@ -16,5 +16,4 @@ interface Link {
 export interface Links {
   LinkedIn: Link;
   GitHub: Link;
-  GitHubRepos: Link;
 }

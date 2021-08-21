@@ -3,13 +3,13 @@
     "institution": "University of Toronto",
     "degree": "Honours Bachelor of Science",
     "program": "Computer Science Co-op - Entrepreneurship Stream",
-    "duration": "2018 - present (expected 2022)"
+    "duration": "2018 - present (expected 2023)"
   },
   "experiences": [
     {
       "position": "Software Developer Intern @ BlackBerry",
       "location": "Waterloo, Ontario, Canada",
-      "duration": "May 2021 - current",
+      "duration": "May 2021 - Aug 2021 (4 months)",
       "team": "BlackBerry Gateway team",
       "techStack": ["Node.js", "Redis", "Lua", "Kafka", "Mocha", "Pact"]
     },
@@ -21,6 +21,7 @@
       "techStack": [
         "React",
         "OpenText services (OT2 Content Storage and Metadata)",
+        "D3.js",
         "Python"
       ]
     }
@@ -33,9 +34,11 @@
       "Python",
       "HTML",
       "CSS",
-      "C"
+      "C",
+      "Lua"
     ],
     "libraries and frameworks": [
+      "Node.js",
       "React",
       "Express",
       "Redux",
@@ -43,19 +46,16 @@
       "Mocha",
       "Pact"
     ],
-    "technologies and databases": [
-      "Node.js",
-      "Git",
-      "MongoDB",
-      "Redis",
-      "Neo4j"
-    ],
+    "technologies and databases": ["Git", "MongoDB", "Redis", "Kafka", "Neo4j"],
     "methodologies": [
       "REST APIs",
       "microservices",
       "NoSQL",
-      "Agile Scrum",
       "unit testing",
+      "integration testing",
+      "contract testing",
+      "Pub/Sub",
+      "Agile Scrum",
       "test-driven development"
     ]
   }
