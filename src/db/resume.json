@@ -27,7 +27,7 @@
     }
   ],
   "skills": {
-    "languages": [
+    "Languages": [
       "JavaScript",
       "TypeScript",
       "Java",
@@ -37,7 +37,7 @@
       "C",
       "Lua"
     ],
-    "libraries and frameworks": [
+    "Libraries and frameworks": [
       "Node.js",
       "React",
       "Express",
@@ -46,7 +46,7 @@
       "Mocha",
       "Pact"
     ],
-    "technologies and databases": [
+    "Tools, technologies, and databases": [
       "Git",
       "MongoDB",
       "Redis",
@@ -56,7 +56,7 @@
       "GitLab",
       "Jira"
     ],
-    "methodologies": [
+    "Methodologies": [
       "REST APIs",
       "microservices",
       "NoSQL",
