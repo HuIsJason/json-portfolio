@@ -54,7 +54,7 @@ const Project: React.FC<Props> = ({
         <>
           <span className={classes.code}>,</span>
           {'\n'}
-          <Tabs count={3} />"<span className={classes.info}>Link</span>"
+          <Tabs count={3} />"<span className={classes.info}>link</span>"
           <span className={classes.code}>: </span>"
           <a
             className={classes.text}

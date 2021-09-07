@@ -72,12 +72,12 @@ const Home: React.FC = () => {
         <span className={jsonClasses.text}>{about.position}</span>"
         <span className={jsonClasses.code}>,</span>
         {'\n'}
-        <Tabs />"<span className={jsonClasses.project}>studying at</span>"
+        <Tabs />"<span className={jsonClasses.project}>Studying at</span>"
         <span className={jsonClasses.code}>: </span>"
         <span className={jsonClasses.text}>{about.school}</span>"
         <span className={jsonClasses.code}>,</span>
         {'\n'}
-        <Tabs />"<span className={jsonClasses.project}>currently</span>"
+        <Tabs />"<span className={jsonClasses.project}>Currently</span>"
         <span className={jsonClasses.code}>: </span>"
         <span className={jsonClasses.text}>{about.status}</span>"
         <span className={jsonClasses.code}>,</span>
