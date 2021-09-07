@@ -46,7 +46,16 @@
       "Mocha",
       "Pact"
     ],
-    "technologies and databases": ["Git", "MongoDB", "Redis", "Kafka", "Neo4j"],
+    "technologies and databases": [
+      "Git",
+      "MongoDB",
+      "Redis",
+      "Kafka",
+      "Neo4j",
+      "GitHub",
+      "GitLab",
+      "Jira"
+    ],
     "methodologies": [
       "REST APIs",
       "microservices",
