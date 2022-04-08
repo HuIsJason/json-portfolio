@@ -17,7 +17,8 @@ const Project: React.FC<Props> = ({
 
   return (
     <>
-      {'\n'}
+      <Tabs />
+      {'{\n'}
       <Tabs count={2} />"<span className={classes.project}>{name}</span>"
       <span className={classes.code}>: </span>
       {'{\n'}
@@ -69,8 +70,11 @@ const Project: React.FC<Props> = ({
       )}
       {'\n'}
       <Tabs count={2} />
+      {'}\n'}
+      <Tabs />
       {'}'}
       {!isLast && <span className={classes.code}>,</span>}
+      {'\n'}
     </>
   );
 };
