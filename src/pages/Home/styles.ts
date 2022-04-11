@@ -5,12 +5,12 @@ export default makeStyles(() => ({
     width: '300px',
     height: '300px',
     borderRadius: '50%',
-    marginTop: '1em',
+    // marginTop: '1em',
     marginLeft: '20%',
-    marginBottom: '5%',
+    marginBottom: '3%',
     display: 'block',
   },
   about: {
-    marginTop: '1.5em',
+    // marginTop: '1em',
   },
 }));

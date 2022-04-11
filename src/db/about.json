@@ -3,12 +3,11 @@
     "name": "Jason Hu",
     "position": "4th year computer science student",
     "status": "seeking 2023 new grad positions",
-    "previously": "BlackBerry and OpenText",
+    "previously": ["BlackBerry", "OpenText"],
     "school": "University of Toronto",
     "interests": [
       "working out",
       "playing basketball",
-      "eating sushi",
       "gaming",
       "learning new things"
     ],

@@ -78,9 +78,19 @@ const Home: React.FC = () => {
         <span className={jsonClasses.code}>,</span>
         {'\n'}
         <Tabs />"<span className={jsonClasses.project}>Previously at</span>"
-        <span className={jsonClasses.code}>: </span>"
-        <span className={jsonClasses.text}>{about.previously}</span>"
-        <span className={jsonClasses.code}>,</span>
+        <span className={jsonClasses.code}>: </span>[
+        {about.previously.map((previous, i) => (
+          <React.Fragment key={i}>
+            {'\n'}
+            <Tabs count={2} />"
+            <span className={jsonClasses.text}>{previous}</span>"
+            {i !== about.previously.length - 1 && (
+              <span className={jsonClasses.code}>,</span>
+            )}
+          </React.Fragment>
+        ))}
+        {'\n'}
+        <Tabs />]<span className={jsonClasses.code}>,</span>
         {'\n'}
         <Tabs />"<span className={jsonClasses.project}>Studying at</span>"
         <span className={jsonClasses.code}>: </span>"

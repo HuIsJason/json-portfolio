@@ -2,7 +2,7 @@ export interface About {
   name: string;
   position: string;
   status: string;
-  previously: string;
+  previously: string[];
   school: string;
   interests: string[];
   email: string;
