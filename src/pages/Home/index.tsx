@@ -21,6 +21,20 @@ const Home: React.FC = () => {
         <img className={classes.pic} src={ProfilePic} alt="" />
         <Tabs count={2} />
         {'{\n'}
+        <Tabs count={3} />"<span className={jsonClasses.page}>Resume</span>"
+        <span className={jsonClasses.code}>: </span>"
+        <span className={jsonClasses.text}>
+          <a
+            className={jsonClasses.text}
+            href="/Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            /Resume.pdf
+          </a>
+        </span>
+        "<span className={jsonClasses.code}>,</span>
+        {'\n'}
         <Tabs count={3} />"<span className={jsonClasses.page}>GitHub</span>"
         <span className={jsonClasses.code}>: </span>"
         <span className={jsonClasses.text}>
@@ -47,39 +61,30 @@ const Home: React.FC = () => {
             {links.LinkedIn.linkName}
           </a>
         </span>
-        "<span className={jsonClasses.code}>,</span>
-        {'\n'}
-        <Tabs count={3} />"<span className={jsonClasses.page}>Resume</span>"
-        <span className={jsonClasses.code}>: </span>"
-        <span className={jsonClasses.text}>
-          <a
-            className={jsonClasses.text}
-            href="/Resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            /Resume.pdf
-          </a>
-        </span>
-        "{'\n'}
+        {'"\n'}
         <Tabs count={2} />
         {'}'}
       </Grid>
-      <Grid item xs={7}>
+      <Grid className={classes.about} item xs={7}>
         {'{\n'}
-        <Tabs />"<span className={jsonClasses.project}>I am</span>"
+        <Tabs />"<span className={jsonClasses.project}>I am a</span>"
         <span className={jsonClasses.code}>: </span>"
         <span className={jsonClasses.text}>{about.position}</span>"
-        <span className={jsonClasses.code}>,</span>
-        {'\n'}
-        <Tabs />"<span className={jsonClasses.project}>Studying at</span>"
-        <span className={jsonClasses.code}>: </span>"
-        <span className={jsonClasses.text}>{about.school}</span>"
         <span className={jsonClasses.code}>,</span>
         {'\n'}
         <Tabs />"<span className={jsonClasses.project}>Currently</span>"
         <span className={jsonClasses.code}>: </span>"
         <span className={jsonClasses.text}>{about.status}</span>"
+        <span className={jsonClasses.code}>,</span>
+        {'\n'}
+        <Tabs />"<span className={jsonClasses.project}>Previously at</span>"
+        <span className={jsonClasses.code}>: </span>"
+        <span className={jsonClasses.text}>{about.previously}</span>"
+        <span className={jsonClasses.code}>,</span>
+        {'\n'}
+        <Tabs />"<span className={jsonClasses.project}>Studying at</span>"
+        <span className={jsonClasses.code}>: </span>"
+        <span className={jsonClasses.text}>{about.school}</span>"
         <span className={jsonClasses.code}>,</span>
         {'\n'}
         <Tabs />"<span className={jsonClasses.project}>I enjoy</span>"
@@ -97,19 +102,9 @@ const Home: React.FC = () => {
         {'\n'}
         <Tabs />]<span className={jsonClasses.code}>,</span>
         {'\n'}
-        <Tabs />"<span className={jsonClasses.project}>Contact me via</span>"
-        <span className={jsonClasses.code}>: </span>
-        {'{\n'}
-        <Tabs count={2} />"<span className={jsonClasses.info}>email</span>"
+        <Tabs />"<span className={jsonClasses.info}>Contact me at</span>"
         <span className={jsonClasses.code}>: </span>"
-        <span className={jsonClasses.text}>{about.email}</span>"
-        <span className={jsonClasses.code}>,</span>
-        {'\n'}
-        <Tabs count={2} />"<span className={jsonClasses.info}>phone</span>"
-        <span className={jsonClasses.code}>: </span>"
-        <span className={jsonClasses.text}>{about.phone}</span>"{'\n'}
-        <Tabs />
-        {'}\n}'}
+        <span className={jsonClasses.text}>{about.email}</span>"{'\n}'}
       </Grid>
     </Grid>
   );

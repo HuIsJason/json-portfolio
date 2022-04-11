@@ -1,14 +1,16 @@
 {
   "about": {
     "name": "Jason Hu",
-    "position": "a 4th year computer science student",
-    "school": "the University of Toronto",
-    "status": "seeking Summer 2022 internships",
+    "position": "4th year computer science student",
+    "status": "seeking 2023 new grad positions",
+    "previously": "BlackBerry and OpenText",
+    "school": "University of Toronto",
     "interests": [
       "working out",
       "playing basketball",
       "eating sushi",
-      "and learning new things!"
+      "gaming",
+      "learning new things"
     ],
     "email": "jason.h.7249@gmail.com",
     "phone": "(416) 909-3633"

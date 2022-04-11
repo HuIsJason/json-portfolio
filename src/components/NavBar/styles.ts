@@ -24,8 +24,6 @@ export default makeStyles((theme: Theme) => ({
   },
   selected: {
     textDecorationLine: 'underline',
-    textDecorationStyle: 'wavy',
-    textDecorationWidth: '0.1',
     textDecorationColor: '#F54E4E',
   },
 }));

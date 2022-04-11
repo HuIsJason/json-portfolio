@@ -1,8 +1,9 @@
 export interface About {
   name: string;
   position: string;
-  school: string;
   status: string;
+  previously: string;
+  school: string;
   interests: string[];
   email: string;
   phone: string;
