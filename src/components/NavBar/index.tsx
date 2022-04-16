@@ -3,10 +3,8 @@ import { Link, NavLink } from 'react-router-dom';
 import { AppBar, Divider, Grid, Toolbar, Typography } from '@material-ui/core';
 
 import { About } from '../../pages/Home/types';
-
 import useStyles from './styles';
 import { useJsonStyles } from '../../styles';
-
 import data from '../../db/about.json';
 
 const NavBar: React.FC = () => {

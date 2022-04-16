@@ -1,8 +1,7 @@
-export default interface ProjectProps {
+export default interface IProject {
   name: string;
   description: string;
   techStack: string[];
   githubLink: string;
   projectLink?: string;
-  isLast?: boolean;
 }

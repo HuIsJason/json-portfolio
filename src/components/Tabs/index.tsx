@@ -4,7 +4,7 @@ interface Props {
   count?: number;
 }
 
-const Tabs: React.FC<Props> = ({ count = 1 }) => (
+const Tabs: React.FC<Props> = ({ count = 1 }: Props) => (
   <>
     {Array.from({ length: count }, (_, i) => (
       <React.Fragment key={i}>&nbsp;&nbsp;</React.Fragment>

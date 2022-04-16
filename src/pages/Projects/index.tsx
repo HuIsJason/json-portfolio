@@ -1,28 +1,34 @@
-import React from 'react';
+import React, { useCallback, useState } from 'react';
 
-import { Project } from '../../components';
-import ProjectProps from '../../components/Project/types';
-
+import { Ellipsis, Project, Tabs, Toggle } from '../../components';
+import IProject from '../../components/Project/types';
 import data from '../../db/projects.json';
 
 const Projects: React.FC = () => {
-  const projects: ProjectProps[] = data;
+  const [showProjects, setShowProjects] = useState<boolean>(true);
+
+  const handleClick = useCallback(() => {
+    setShowProjects(!showProjects);
+  }, [showProjects]);
+
+  const projects: IProject[] = data;
 
   return (
     <>
-      {'[\n'}
-      {projects.map((project, i) => (
-        <Project
-          key={i}
-          name={project.name}
-          description={project.description}
-          techStack={project.techStack}
-          githubLink={project.githubLink}
-          projectLink={project.projectLink}
-          isLast={i === projects.length - 1}
-        />
-      ))}
-      {']'}
+      {'['}
+      <Toggle onClick={handleClick} isShown={showProjects} />
+      {'\n'}
+      {showProjects ? (
+        projects.map((project, i) => (
+          <Project key={i} {...project} isLast={i === projects.length - 1} />
+        ))
+      ) : (
+        <>
+          <Tabs />
+          <Ellipsis />
+        </>
+      )}
+      {'\n]'}
     </>
   );
 };
