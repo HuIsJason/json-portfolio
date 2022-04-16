@@ -6,7 +6,9 @@ import Tabs from '../Tabs';
 import Toggle from '../Toggle';
 import { useJsonStyles } from '../../styles';
 
-type Props = IProject & { isLast: boolean };
+interface Props extends IProject {
+  isLast: boolean;
+}
 
 const Project: React.FC<Props> = ({
   name,
@@ -48,8 +50,8 @@ const Project: React.FC<Props> = ({
       <Tabs count={2} />
       {showProject ? (
         <>
-          "<span className={classes.project}>{name}</span>"
-          <span className={classes.code}>: </span>
+          "<span className={classes.red}>{name}</span>"
+          <span className={classes.white}>: </span>
           {'{'}
           <Toggle
             onClick={() => handleClick('project info')}
@@ -59,14 +61,14 @@ const Project: React.FC<Props> = ({
           <Tabs count={3} />
           {showProjectInfo ? (
             <>
-              "<span className={classes.info}>description</span>"
-              <span className={classes.code}>: </span>"
-              <span className={classes.text}>{description}</span>"
-              <span className={classes.code}>,</span>
+              "<span className={classes.yellow}>description</span>"
+              <span className={classes.white}>: </span>"
+              <span className={classes.green}>{description}</span>"
+              <span className={classes.white}>,</span>
               {'\n'}
               <Tabs count={3} />"
-              <span className={classes.info}>tech stack</span>"
-              <span className={classes.code}>: </span>[
+              <span className={classes.yellow}>tech stack</span>"
+              <span className={classes.white}>: </span>[
               <Toggle
                 onClick={() => handleClick('tech stack')}
                 isShown={showTechStack}
@@ -76,10 +78,10 @@ const Project: React.FC<Props> = ({
                 techStack.map((tech, i) => (
                   <React.Fragment key={i}>
                     <Tabs count={4} />"
-                    <span className={classes.text}>{tech}</span>"
+                    <span className={classes.green}>{tech}</span>"
                     {i !== techStack.length - 1 && (
                       <>
-                        <span className={classes.code}>,</span>
+                        <span className={classes.white}>,</span>
                         {'\n'}
                       </>
                     )}
@@ -92,12 +94,12 @@ const Project: React.FC<Props> = ({
                 </>
               )}
               {'\n'}
-              <Tabs count={3} />]<span className={classes.code}>,</span>
+              <Tabs count={3} />]<span className={classes.white}>,</span>
               {'\n'}
-              <Tabs count={3} />"<span className={classes.info}>GitHub</span>"
-              <span className={classes.code}>: </span>"
+              <Tabs count={3} />"<span className={classes.yellow}>GitHub</span>"
+              <span className={classes.white}>: </span>"
               <a
-                className={classes.text}
+                className={classes.green}
                 href={githubLink}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -107,12 +109,13 @@ const Project: React.FC<Props> = ({
               "
               {projectLink && (
                 <>
-                  <span className={classes.code}>,</span>
+                  <span className={classes.white}>,</span>
                   {'\n'}
-                  <Tabs count={3} />"<span className={classes.info}>link</span>"
-                  <span className={classes.code}>: </span>"
+                  <Tabs count={3} />"
+                  <span className={classes.yellow}>link</span>"
+                  <span className={classes.white}>: </span>"
                   <a
-                    className={classes.text}
+                    className={classes.green}
                     href={projectLink}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -140,7 +143,7 @@ const Project: React.FC<Props> = ({
       {'}'}
       {!isLast && (
         <>
-          <span className={classes.code}>,</span>
+          <span className={classes.white}>,</span>
           {'\n'}
         </>
       )}

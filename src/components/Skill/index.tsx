@@ -6,7 +6,9 @@ import Tabs from '../Tabs';
 import Toggle from '../Toggle';
 import { useJsonStyles } from '../../styles';
 
-type Props = ISkill & { isLast: boolean };
+interface Props extends ISkill {
+  isLast: boolean;
+}
 
 const Skill: React.FC<Props> = ({
   skillCategory,
@@ -23,18 +25,17 @@ const Skill: React.FC<Props> = ({
 
   return (
     <>
-      <Tabs count={2} />"
-      <span className={classes.project}>{skillCategory}</span>"
-      <span className={classes.code}>: </span>[
+      <Tabs count={2} />"<span className={classes.red}>{skillCategory}</span>"
+      <span className={classes.white}>: </span>[
       <Toggle onClick={handleClick} isShown={showSkills} />
       {'\n'}
       {showSkills ? (
         skillList.map((skill, i) => (
           <React.Fragment key={i}>
-            <Tabs count={3} />"<span className={classes.text}>{skill}</span>"
+            <Tabs count={3} />"<span className={classes.green}>{skill}</span>"
             {i !== skillList.length - 1 && (
               <>
-                <span className={classes.code}>,</span>
+                <span className={classes.white}>,</span>
                 {'\n'}
               </>
             )}
@@ -51,7 +52,7 @@ const Skill: React.FC<Props> = ({
       {']'}
       {!isLast && (
         <>
-          <span className={classes.code}>,</span>
+          <span className={classes.white}>,</span>
           {'\n'}
         </>
       )}

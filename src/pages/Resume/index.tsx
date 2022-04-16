@@ -92,11 +92,11 @@ const Resume: React.FC = () => {
       <Tabs />
       {showResume ? (
         <>
-          "<span className={classes.page}>Resume</span>"
-          <span className={classes.code}>: </span>"
-          <span className={classes.text}>
+          "<span className={classes.purple}>Resume</span>"
+          <span className={classes.white}>: </span>"
+          <span className={classes.green}>
             <a
-              className={classes.text}
+              className={classes.green}
               href="/Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
@@ -104,11 +104,11 @@ const Resume: React.FC = () => {
               /Resume.pdf
             </a>
           </span>
-          "<span className={classes.code}>,</span>
+          "<span className={classes.white}>,</span>
           {'\n'}
           {/* Education */}
-          <Tabs />"<span className={classes.page}>Education</span>"
-          <span className={classes.code}>: </span>
+          <Tabs />"<span className={classes.purple}>Education</span>"
+          <span className={classes.white}>: </span>
           {'{'}
           <Toggle
             onClick={() => handleClick('education')}
@@ -118,8 +118,8 @@ const Resume: React.FC = () => {
           <Tabs count={2} />
           {showEducation ? (
             <>
-              "<span className={classes.project}>{education.institution}</span>"
-              <span className={classes.code}>: </span>
+              "<span className={classes.red}>{education.institution}</span>"
+              <span className={classes.white}>: </span>
               {'{'}
               <Toggle
                 onClick={() => handleClick('school')}
@@ -129,21 +129,21 @@ const Resume: React.FC = () => {
               <Tabs count={3} />
               {showSchool ? (
                 <>
-                  "<span className={classes.info}>degree</span>"
-                  <span className={classes.code}>: </span>"
-                  <span className={classes.text}>{education.degree}</span>"
-                  <span className={classes.code}>,</span>
+                  "<span className={classes.yellow}>degree</span>"
+                  <span className={classes.white}>: </span>"
+                  <span className={classes.green}>{education.degree}</span>"
+                  <span className={classes.white}>,</span>
                   {'\n'}
                   <Tabs count={3} />"
-                  <span className={classes.info}>program</span>"
-                  <span className={classes.code}>: </span>"
-                  <span className={classes.text}>{education.program}</span>"
-                  <span className={classes.code}>,</span>
+                  <span className={classes.yellow}>program</span>"
+                  <span className={classes.white}>: </span>"
+                  <span className={classes.green}>{education.program}</span>"
+                  <span className={classes.white}>,</span>
                   {'\n'}
                   <Tabs count={3} />"
-                  <span className={classes.info}>duration</span>"
-                  <span className={classes.code}>: </span>"
-                  <span className={classes.text}>{education.duration}</span>"
+                  <span className={classes.yellow}>duration</span>"
+                  <span className={classes.white}>: </span>"
+                  <span className={classes.green}>{education.duration}</span>"
                 </>
               ) : (
                 <Ellipsis />
@@ -158,11 +158,11 @@ const Resume: React.FC = () => {
           {'\n'}
           <Tabs />
           {'}'}
-          <span className={classes.code}>,</span>
+          <span className={classes.white}>,</span>
           {'\n'}
           {/* Experience */}
-          <Tabs />"<span className={classes.page}>Experience</span>"
-          <span className={classes.code}>: </span>
+          <Tabs />"<span className={classes.purple}>Experience</span>"
+          <span className={classes.white}>: </span>
           {'{'}
           <Toggle
             onClick={() => handleClick('experiences')}
@@ -186,11 +186,11 @@ const Resume: React.FC = () => {
           {'\n'}
           <Tabs />
           {'}'}
-          <span className={classes.code}>,</span>
+          <span className={classes.white}>,</span>
           {'\n'}
           {/* Skills */}
-          <Tabs />"<span className={classes.page}>Skills</span>"
-          <span className={classes.code}>: </span>
+          <Tabs />"<span className={classes.purple}>Skills</span>"
+          <span className={classes.white}>: </span>
           {'{'}
           <Toggle onClick={() => handleClick('skills')} isShown={showSkills} />
           {'\n'}

@@ -4,19 +4,19 @@ export default makeStyles(() => ({
   root: {
     whiteSpace: 'pre-line',
   },
-  page: {
+  purple: {
     color: '#AF75FF',
   },
-  project: {
+  red: {
     color: '#F54E4E',
   },
-  info: {
+  yellow: {
     color: '#FABC37',
   },
-  text: {
+  green: {
     color: '#b9db51',
   },
-  code: {
+  white: {
     color: 'white',
   },
 }));

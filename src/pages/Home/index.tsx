@@ -49,11 +49,11 @@ const Home: React.FC = () => {
         <Tabs count={3} />
         {showLinks ? (
           <>
-            "<span className={jsonClasses.page}>Resume</span>"
-            <span className={jsonClasses.code}>: </span>"
-            <span className={jsonClasses.text}>
+            "<span className={jsonClasses.purple}>Resume</span>"
+            <span className={jsonClasses.white}>: </span>"
+            <span className={jsonClasses.green}>
               <a
-                className={jsonClasses.text}
+                className={jsonClasses.green}
                 href="/Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -61,13 +61,14 @@ const Home: React.FC = () => {
                 /Resume.pdf
               </a>
             </span>
-            "<span className={jsonClasses.code}>,</span>
+            "<span className={jsonClasses.white}>,</span>
             {'\n'}
-            <Tabs count={3} />"<span className={jsonClasses.page}>GitHub</span>"
-            <span className={jsonClasses.code}>: </span>"
-            <span className={jsonClasses.text}>
+            <Tabs count={3} />"
+            <span className={jsonClasses.purple}>GitHub</span>"
+            <span className={jsonClasses.white}>: </span>"
+            <span className={jsonClasses.green}>
               <a
-                className={jsonClasses.text}
+                className={jsonClasses.green}
                 href={links.GitHub.linkUrl}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -75,14 +76,14 @@ const Home: React.FC = () => {
                 {links.GitHub.linkName}
               </a>
             </span>
-            "<span className={jsonClasses.code}>,</span>
+            "<span className={jsonClasses.white}>,</span>
             {'\n'}
             <Tabs count={3} />"
-            <span className={jsonClasses.page}>LinkedIn</span>"
-            <span className={jsonClasses.code}>: </span>"
-            <span className={jsonClasses.text}>
+            <span className={jsonClasses.purple}>LinkedIn</span>"
+            <span className={jsonClasses.white}>: </span>"
+            <span className={jsonClasses.green}>
               <a
-                className={jsonClasses.text}
+                className={jsonClasses.green}
                 href={links.LinkedIn.linkUrl}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -106,18 +107,18 @@ const Home: React.FC = () => {
         <Tabs />
         {showAbout ? (
           <>
-            "<span className={jsonClasses.project}>I am a</span>"
-            <span className={jsonClasses.code}>: </span>"
-            <span className={jsonClasses.text}>{about.position}</span>"
-            <span className={jsonClasses.code}>,</span>
+            "<span className={jsonClasses.red}>I am a</span>"
+            <span className={jsonClasses.white}>: </span>"
+            <span className={jsonClasses.green}>{about.position}</span>"
+            <span className={jsonClasses.white}>,</span>
             {'\n'}
-            <Tabs />"<span className={jsonClasses.project}>Currently</span>"
-            <span className={jsonClasses.code}>: </span>"
-            <span className={jsonClasses.text}>{about.status}</span>"
-            <span className={jsonClasses.code}>,</span>
+            <Tabs />"<span className={jsonClasses.red}>Currently</span>"
+            <span className={jsonClasses.white}>: </span>"
+            <span className={jsonClasses.green}>{about.status}</span>"
+            <span className={jsonClasses.white}>,</span>
             {'\n'}
-            <Tabs />"<span className={jsonClasses.project}>Previously at</span>"
-            <span className={jsonClasses.code}>: </span>[
+            <Tabs />"<span className={jsonClasses.red}>Previously at</span>"
+            <span className={jsonClasses.white}>: </span>[
             <Toggle
               onClick={() => handleClick('previously')}
               isShown={showPreviously}
@@ -127,10 +128,10 @@ const Home: React.FC = () => {
               about.previously.map((previous, i) => (
                 <React.Fragment key={i}>
                   <Tabs count={2} />"
-                  <span className={jsonClasses.text}>{previous}</span>"
+                  <span className={jsonClasses.green}>{previous}</span>"
                   {i !== about.previously.length - 1 && (
                     <>
-                      <span className={jsonClasses.code}>,</span>
+                      <span className={jsonClasses.white}>,</span>
                       {'\n'}
                     </>
                   )}
@@ -143,25 +144,25 @@ const Home: React.FC = () => {
               </>
             )}
             {'\n'}
-            <Tabs />]<span className={jsonClasses.code}>,</span>
+            <Tabs />]<span className={jsonClasses.white}>,</span>
             {'\n'}
-            <Tabs />"<span className={jsonClasses.project}>Studying at</span>"
-            <span className={jsonClasses.code}>: </span>"
-            <span className={jsonClasses.text}>{about.school}</span>"
-            <span className={jsonClasses.code}>,</span>
+            <Tabs />"<span className={jsonClasses.red}>Studying at</span>"
+            <span className={jsonClasses.white}>: </span>"
+            <span className={jsonClasses.green}>{about.school}</span>"
+            <span className={jsonClasses.white}>,</span>
             {'\n'}
-            <Tabs />"<span className={jsonClasses.project}>I enjoy</span>"
-            <span className={jsonClasses.code}>: </span>[
+            <Tabs />"<span className={jsonClasses.red}>I enjoy</span>"
+            <span className={jsonClasses.white}>: </span>[
             <Toggle onClick={() => handleClick('enjoy')} isShown={showEnjoy} />
             {'\n'}
             {showEnjoy ? (
               about.interests.map((interest, i) => (
                 <React.Fragment key={i}>
                   <Tabs count={2} />"
-                  <span className={jsonClasses.text}>{interest}</span>"
+                  <span className={jsonClasses.green}>{interest}</span>"
                   {i !== about.interests.length - 1 && (
                     <>
-                      <span className={jsonClasses.code}>,</span>
+                      <span className={jsonClasses.white}>,</span>
                       {'\n'}
                     </>
                   )}
@@ -174,11 +175,11 @@ const Home: React.FC = () => {
               </>
             )}
             {'\n'}
-            <Tabs />]<span className={jsonClasses.code}>,</span>
+            <Tabs />]<span className={jsonClasses.white}>,</span>
             {'\n'}
-            <Tabs />"<span className={jsonClasses.info}>Contact me at</span>"
-            <span className={jsonClasses.code}>: </span>"
-            <span className={jsonClasses.text}>{about.email}</span>"
+            <Tabs />"<span className={jsonClasses.yellow}>Contact me at</span>"
+            <span className={jsonClasses.white}>: </span>"
+            <span className={jsonClasses.green}>{about.email}</span>"
           </>
         ) : (
           <Ellipsis />

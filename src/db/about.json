@@ -2,13 +2,13 @@
   "about": {
     "name": "Jason Hu",
     "position": "4th year computer science student",
-    "status": "seeking 2023 new grad positions",
+    "status": "seeking 2023 graduate positions",
     "previously": ["BlackBerry", "OpenText"],
     "school": "University of Toronto",
     "interests": [
-      "working out",
-      "playing basketball",
       "gaming",
+      "playing basketball",
+      "working out",
       "learning new things"
     ],
     "email": "jason.h.7249@gmail.com",

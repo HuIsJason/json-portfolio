@@ -10,9 +10,11 @@ interface Props {
 const Toggle: React.FC<Props> = ({ isShown, onClick }: Props) => {
   const classes = useJsonStyles();
 
+  // arrows:   ˅˃   🢓🢒   ⮟⮞
   return (
-    <span onClick={onClick} className={classes.code}>
-      {isShown ? ' ▼' : ' ▲'}
+    <span onClick={onClick} className={classes.white}>
+      {' '}
+      {isShown ? '˅' : '˃'}
     </span>
   );
 };
