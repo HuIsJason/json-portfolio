@@ -12,7 +12,7 @@ interface Props extends IExperience {
 
 const Experience: React.FC<Props> = ({
   position,
-  summary,
+  // summary,
   duration,
   location,
   team,
@@ -51,12 +51,13 @@ const Experience: React.FC<Props> = ({
       <Tabs count={3} />
       {showExperience ? (
         <>
-          "<span className={classes.yellow}>summary</span>"
+          {/* "<span className={classes.yellow}>summary</span>"
           <span className={classes.white}>: </span>"
           <span className={classes.green}>{summary}</span>"
           <span className={classes.white}>,</span>
           {'\n'}
-          <Tabs count={3} />"<span className={classes.yellow}>duration</span>"
+          <Tabs count={3} /> */}
+          "<span className={classes.yellow}>duration</span>"
           <span className={classes.white}>: </span>"
           <span className={classes.green}>{duration}</span>"
           <span className={classes.white}>,</span>
