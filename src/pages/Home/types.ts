@@ -6,7 +6,6 @@ export interface About {
   school: string;
   interests: string[];
   email: string;
-  phone: string;
 }
 
 interface Link {
