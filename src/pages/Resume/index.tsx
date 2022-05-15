@@ -129,7 +129,13 @@ const Resume: React.FC = () => {
               <Tabs count={3} />
               {showSchool ? (
                 <>
-                  "<span className={classes.yellow}>degree</span>"
+                  "<span className={classes.yellow}>duration</span>"
+                  <span className={classes.white}>: </span>"
+                  <span className={classes.green}>{education.duration}</span>"
+                  <span className={classes.white}>,</span>
+                  {'\n'}
+                  <Tabs count={3} />"
+                  <span className={classes.yellow}>degree</span>"
                   <span className={classes.white}>: </span>"
                   <span className={classes.green}>{education.degree}</span>"
                   <span className={classes.white}>,</span>
@@ -138,12 +144,6 @@ const Resume: React.FC = () => {
                   <span className={classes.yellow}>program</span>"
                   <span className={classes.white}>: </span>"
                   <span className={classes.green}>{education.program}</span>"
-                  <span className={classes.white}>,</span>
-                  {'\n'}
-                  <Tabs count={3} />"
-                  <span className={classes.yellow}>duration</span>"
-                  <span className={classes.white}>: </span>"
-                  <span className={classes.green}>{education.duration}</span>"
                 </>
               ) : (
                 <Ellipsis />

@@ -1,21 +1,21 @@
 {
   "education": {
     "institution": "University of Toronto",
+    "duration": "Sep 2018 - present (expected Dec 2022)",
     "degree": "Honours Bachelor of Science",
-    "program": "Computer Science Co-op - Entrepreneurship Stream",
-    "duration": "Sep 2018 - present (expected Dec 2022)"
+    "program": "Computer Science Co-op - Entrepreneurship Stream"
   },
   "experiences": [
     {
-      "position": "Software Developer Intern @ BlackBerry",
-      "summary": "Worked on a Node.js backend service involving Kafka events, Redis Pub/Sub, writing to a Redis cache, and data synchronization with other services. Wrote Lua scripts for Redis housekeeping and Mocha/Pact unit tests.",
+      "position": "BlackBerry - Software Developer Intern",
+      "summary": "Worked on a Node.js backend service working with Kafka events, Redis Pub/Sub, writing to a Redis cache, and data synchronization with other services. Wrote a Lua script for Redis housekeeping and Mocha/Pact unit tests.",
       "duration": "May 2021 - Aug 2021 (4 months)",
       "location": "Waterloo, Ontario, Canada",
-      "team": "BlackBerry Gateway team",
+      "team": "CylanceGATEWAY team",
       "techStack": ["Node.js", "Redis", "Lua", "Kafka", "Mocha", "Pact"]
     },
     {
-      "position": "Software Developer Intern @ OpenText",
+      "position": "OpenText - Software Developer Intern",
       "summary": "Worked on a testing pipeline dashboard, and a React frontend client for demonstrating new OpenText content storage services.",
       "duration": "Jan 2020 - Aug 2020 (8 months)",
       "location": "Richmond Hill, Ontario, Canada",
@@ -36,6 +36,7 @@
       "Python",
       "HTML",
       "CSS",
+      "SQL",
       "C",
       "Lua"
     ],
@@ -53,9 +54,9 @@
       "MongoDB",
       "Redis",
       "Kafka",
+      "PostgreSQL",
       "Neo4j",
       "GitHub",
-      "GitLab",
       "Jira"
     ],
     "Methodologies": [
